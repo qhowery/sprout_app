@@ -20,7 +20,7 @@ import moment from "moment";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { BsFillChatDotsFill } from "react-icons/bs";
-import { FaReddit } from "react-icons/fa";
+import { LuSprout } from "react-icons/lu";
 import { ImUsers } from "react-icons/im";
 
 import { Community } from "../../atoms/CommunitiesAtom";
@@ -143,7 +143,7 @@ function ConversationItem({ user }: Props) {
           </Flex>
         ) : (
           <Flex position="relative">
-            <Icon as={FaReddit} fontSize={40} color="brand.100" mr={2} />
+            <Icon as={LuSprout} fontSize={40} color="brand.100" mr={2} />
             <Icon as={BsFillChatDotsFill} position="absolute" top={6} />
           </Flex>
         )}

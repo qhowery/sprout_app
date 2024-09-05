@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { Community } from "../../atoms/CommunitiesAtom";
-import { FaReddit } from "react-icons/fa";
+import { LuSprout } from "react-icons/lu";
 import useCommunityData from "../../hooks/useCommunityData";
 
 type HeaderProps = {
@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ communityData }) => {
             />
           ) : (
             <Icon
-              as={FaReddit}
+              as={LuSprout}
               fontSize={64}
               position="relative"
               top={-3}

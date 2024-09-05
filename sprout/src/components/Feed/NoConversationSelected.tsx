@@ -1,6 +1,6 @@
 import { Flex, Stack, Text } from "@chakra-ui/react";
 import { User } from "firebase/auth";
-import { IoLogoReddit } from "react-icons/io5";
+const sproutLogo = process.env.PUBLIC_URL + '/images/header.png';
 
 type Props = {
   user?: User;
@@ -13,7 +13,7 @@ function NoConversationSelected({ user }: Props) {
         <Text fontSize={40}>
           {user ? "Select a Conversation" : "You Need To Login"}
         </Text>
-        <IoLogoReddit fontSize={90} />
+        <img src={sproutLogo} alt="Description" />
       </Stack>
     </Flex>
   );

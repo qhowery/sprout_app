@@ -6,7 +6,7 @@ import {
   DirectoryMenuItem,
   directoryMenuState,
 } from "../atoms/directoryMenuAtom";
-import { FaReddit } from "react-icons/fa";
+import { LuSprout } from "react-icons/lu";
 
 const useDirectory = () => {
   const [directoryState, setDirectoryState] =
@@ -43,7 +43,7 @@ const useDirectory = () => {
           displayText: `r/${currentCommunity.id}`,
           link: `/r/${currentCommunity.id}`,
           imageURL: currentCommunity.imageURL,
-          icon: FaReddit,
+          icon: LuSprout,
           iconColor: "blue.500",
         },
       }));

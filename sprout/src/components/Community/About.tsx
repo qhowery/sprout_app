@@ -16,7 +16,7 @@ import moment from "moment";
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { FaReddit } from "react-icons/fa";
+import { LuSprout } from "react-icons/lu";
 import { HiOutlineDotsHorizontal } from "react-icons/hi";
 import { RiCakeLine } from "react-icons/ri";
 import { useSetRecoilState } from "recoil";
@@ -138,7 +138,7 @@ const About: React.FC<AboutProps> = ({ communityData }) => {
                     />
                   ) : (
                     <Icon
-                      as={FaReddit}
+                      as={LuSprout}
                       fontSize={40}
                       color="brand.100"
                       mr={2}

@@ -12,7 +12,8 @@ import { doc, getDoc, Timestamp } from "firebase/firestore";
 import moment from "moment";
 import { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { FaRedditAlien, FaUserCheck } from "react-icons/fa";
+import { FaUserCheck } from "react-icons/fa";
+import { GiPlantSeed } from "react-icons/gi";
 import { GiCakeSlice, GiCheckedShield } from "react-icons/gi";
 import { IoRocketSharp, IoShirtOutline } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
@@ -125,7 +126,7 @@ function ProfileSide({}: Props) {
           <Text fontWeight="bold" fontSize="18pt">
             {user?.displayName || user?.email?.split("@")[0]}
           </Text>
-          <Icon as={FaRedditAlien} fontSize="18pt" color="brand.100" />
+          <Icon as={GiPlantSeed} fontSize="18pt" color="brand.100" />
           <Icon as={GiCheckedShield} fontSize="18pt" color="brand.100" />
         </Flex>
       </Flex>
