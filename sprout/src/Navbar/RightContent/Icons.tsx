@@ -79,7 +79,6 @@ const Icons: React.FC = () => {
           _hover={{ bg: hoverBg }}
           onClick={() => router.push("/chat")}
           position="relative"
-          bgGradient="linear(to-l, #7928CA, #FF0080)"
         >
           <Text
             position="absolute"
@@ -87,9 +86,7 @@ const Icons: React.FC = () => {
             left={4}
             fontSize={10}
             as={motion.div}
-            animation={animation}
           >
-            New
           </Text>
           <Icon as={BsChatDots} fontSize={20} />
         </Flex>
