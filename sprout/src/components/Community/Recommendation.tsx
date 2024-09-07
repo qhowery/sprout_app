@@ -79,10 +79,10 @@ const Recommendation: React.FC = () => {
         height="70px"
         borderRadius="4px 4px 0px 0px"
         fontWeight={600}
-        bgImage="url(/images/recCommsArt.png)"
+        bgImage="url(/images/singlesprout.png)"
         backgroundSize="cover"
         bgGradient="linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),
-        url('images/xw6wqhhjubh31.webp')"
+        url('images/balconygarden.webp')"
       >
         Top Communities
       </Flex>

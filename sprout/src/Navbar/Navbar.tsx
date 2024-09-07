@@ -91,11 +91,11 @@ const Navbar: React.FC = () => {
         cursor="pointer"
         onClick={() => onSelectMenuItem(defaultMenuItem)}
       >
-        <Image src="/images/redditFace.svg" height="30px" />
+        <Image src="/images/sproutbw.svg" height="30px" />
         <Image
           src={
             colorMode === "light"
-              ? "/images/redditText.svg"
+              ? "/images/sprouttext.svg"
               : "/images/Reddit-Word-Dark.svg"
           }
           height="46px"
